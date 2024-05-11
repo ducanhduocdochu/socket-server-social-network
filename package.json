@@ -1,0 +1,22 @@
+{
+  "name": "sys_message_queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-ws": "^5.0.2",
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.2.3",
+    "nodemon": "^3.1.0"
+  }
+}
